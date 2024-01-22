@@ -13,9 +13,7 @@ type ErrorStore struct {
 
 // NewErrorStore creates a new instance of ErrorStore.
 func NewErrorStore(jsonData []byte) (*ErrorStore, error) {
-	var data struct {
-		Errors []ErrorEntry `json:"errors"` // Slice of error entries
-	}
+	var data = ErrorDefinition{}
 	err := json.Unmarshal(jsonData, &data)
 	if err != nil {
 		return nil, err

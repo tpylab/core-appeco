@@ -13,3 +13,7 @@ type ErrorEntry struct {
 	Type     string       `json:"type"`
 	Messages ErrorMessage `json:"messages"`
 }
+
+type ErrorDefinition struct {
+	Errors []ErrorEntry `json:"errors"`
+}
