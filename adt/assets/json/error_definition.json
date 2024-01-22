@@ -1,0 +1,31 @@
+{
+  "errors": [
+    {
+      "id": "internal_error1",
+      "type": "error",
+      "messages": {
+        "es": "Error interno del servidor.",
+        "en": "Internal server error.",
+        "fr": "Erreur interne du serveur."
+      }
+    },
+    {
+      "id": "resource_not_found",
+      "type": "error",
+      "messages": {
+        "es": "No se encontró el recurso solicitado.",
+        "en": "Requested resource not found.",
+        "fr": "Ressource demandée non trouvée."
+      }
+    },
+    {
+      "id": "access_denied",
+      "type": "error",
+      "messages": {
+        "es": "Acceso denegado.",
+        "en": "Access denied.",
+        "fr": "Accès refusé."
+      }
+    }
+  ]
+}
